@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form intro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="" method="POST">
+        <!-- label gives name for input -->
+        <label for="username"> username </label>
+        <!-- input material -->
+        <input type="text" id="username" placeholder="spongebob" minlength="6" maxlength="15" required><br>
+
+        <label for="password"> password: </label>
+        <input type="password" id="password" minlength="6" maxlength="15" required><br>
+
+        <label for="email"> email: </label>
+        <input typ="email" id="email" placeholder="Ssquarepants@gmail.com"><br>
+
+        <label for="phone number">phone number</label>
+        <input type="tel" id="phone number" placeholder="(123)-456-8910"><br>
+
+        <!-- for dates -->
+        <label for="birthday"> birthday: </label>
+        <input type="date" id="birthday"><br>
+
+        <!-- quantities -->
+        <label for="quantity"> quantity: </label>
+        <input type="number" id="quantity" min="0" max="99" value="1"><br>
+
+        <label for="title">title:</label>
+        <label for="title">Ms./Mrs.</label>
+        <input= type="radio" id="Ms./Mrs." value="Ms./Mrs.">
+        <label for="title">Mr.</label>
+        <input= type="radio" id="Mr." value="Mr.">
+        <label for="title">Mx.</label>
+        <input= type="radio" id="Mx." value="Mx.">
+        <label for="title">PhD./MD.</label>
+        <input= type="radio" id="PhD./MD." value="PhD./MD.">
+
+       
+        <input type="reset"><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
